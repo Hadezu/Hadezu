@@ -1,47 +1,74 @@
 # Ivan Matiushkin
 
-**Custom software, internal applications and improvements to existing systems.**
+### Software for business processes that need a better tool.
 
-Independent developer in Poland, working remotely. Bring a manual process, a missing tool or a problem in existing software. I assess the task, agree a practical first stage and deliver changes with tests and handover instructions. Larger projects can grow through agreed stages.
+I build internal applications, connect systems, work with business data and improve existing software. Independent contractor in Poland, working directly with clients remotely.
 
-[Portfolio](https://work.matiushkin.com/en) · [Portfolio po polsku](https://work.matiushkin.com/) · [Describe your task](mailto:ivan@matiushkin.com)
+[Explore the portfolio](https://work.matiushkin.com/en) · [Po polsku](https://work.matiushkin.com/) · [Describe your problem](https://work.matiushkin.com/en/contact)
 
-## Find evidence for your task
+**You do not need a technical specification or an introductory call.** Describe what happens today and what needs to change. If I sent you an example by email, replying there is enough.
 
-| Your task | Working evidence | What to inspect |
-| --- | --- | --- |
-| Build an internal application | [Operations Approval Desk](https://github.com/Hadezu/operations-approval-desk) | Django/PostgreSQL, real login, scoped records, approval conflicts and history |
-| Extend an existing application | [Atomic CRM import review](https://github.com/Hadezu/atomic-crm-import-review/blob/main/CASE-STUDY.md) | My extension to Marmelab's CRM: preview, conflicts and selective contact import |
-| Fix existing backend code | [Java retry failure](https://github.com/Hadezu/resilience4j-retry-review) | A scoped Resilience4j patch with reproduction and regression tests |
-| Connect systems and recover failed deliveries | [FastAPI webhook reliability](https://github.com/Hadezu/fastapi-webhook-reliability) | Extension to the upstream template: PostgreSQL inbox/outbox, duplicates, lost responses and process crashes |
-| Handle connected-account authorization | [OAuth Connection Recovery](https://github.com/Hadezu/oauth-connection-recovery) | PKCE, encrypted tokens and reconnection after ambiguous renewal against a local provider |
-| Import into an existing database | [PostgreSQL Import Rehearsal](https://github.com/Hadezu/postgres-import-rehearsal) | Reviewed plans, real database writes, replay protection and guarded undo |
-| Reconcile files and explain reporting differences | [Reconciliation Evidence Workbench](https://github.com/Hadezu/reconciliation-evidence-workbench) | CSV/XLSX, exact amounts, ambiguous records and portable HTML/Excel evidence |
-| Evaluate AI workflow changes | [LLM Extraction Release Gate](https://github.com/Hadezu/llm-extraction-release-gate) | Per-case regressions and release decisions; raw real-model failures remain visible |
-| Build a web interface or interactive component | [Portfolio source](https://github.com/Hadezu/work-portfolio) · [Live examples](https://work.matiushkin.com/en) | React/TypeScript, bilingual interface, Three.js and interactive business demonstrations |
+---
 
-Each project includes scope, setup and verification information. These are **independent implementations with synthetic/test data, not paid client deployments**. Upstream authors retain credit; my extensions and fixes are identified explicitly. Repository evidence supports the mechanisms implemented, not every requirement of a larger role.
+## Start with a working example
 
-## Starting a project
+### 01 / A request needs a clear owner and a recorded decision
 
-You do not need to know the technology in advance. Describe what happens now, what should change and who will use the result. No introductory call or finished specification is required.
+**Operations Approval Desk** — submit a request, switch to its reviewer and inspect the decision history. Try an outdated decision: it cannot overwrite the approved version. Real Django/PostgreSQL, with an isolated synthetic workspace.
 
-A first stage could be a usable workflow, a feature in your application, a reproducible bug fix, an integration or a data-processing task. It is a starting point, not a limit on project size. We agree access, scope, acceptance criteria, price and timing before paid work. Detailed architecture and prototypes are separately scoped.
+[Try live — EN](https://operations-approval-desk.onrender.com/demo/en/) · [Wypróbuj — PL](https://operations-approval-desk.onrender.com/demo/pl/) · [Code and verification](https://github.com/Hadezu/operations-approval-desk) · [Internal application development](https://work.matiushkin.com/en/services/internal-applications)
 
-## How I work with AI
+No account needed. The guided demo switches synthetic roles; it does not demonstrate customer identity onboarding. Free hosting may take about a minute to wake up. The repository also includes local authenticated workflows.
 
-I use Codex to help explore codebases, implement changes and develop tests. I review changes and check results through appropriate builds, automated checks and browser testing. AI-tool and data-access constraints are agreed before working with client code. AI assistance is not itself evidence that a result is correct.
+### 02 / An existing application needs a safer import
 
-## Evidence boundaries
+**Atomic CRM import review** — my extension to Marmelab's CRM adds a read-only CSV preview, duplicate/conflict review, explicit row selection and per-record outcomes. Inspect the walkthrough or run the extension locally; Marmelab's hosted demo is the upstream CRM, not my extension.
 
-- The CRM and FastAPI applications build on attributed open-source projects; I did not author their entire upstream feature sets.
-- OAuth uses a local test provider, not an approved Google/Meta connector. Webhook guarantees depend on the documented partner contract.
-- The approval app uses real authentication with synthetic accounts; it does not perform external financial or warehouse actions.
-- The AI release gate demonstrates evaluation. Its recorded Qwen candidate was blocked, not declared production-ready.
-- No client references, vendor certifications, production-scale reliability or experience with every framework are implied.
+[Project walkthrough](https://github.com/Hadezu/atomic-crm-import-review/blob/main/CASE-STUDY.md) · [Code and tests](https://github.com/Hadezu/atomic-crm-import-review) · [Improve existing software](https://work.matiushkin.com/en/services/software-improvements)
 
-**Have a task that does not fit the examples?** [Describe it](mailto:ivan@matiushkin.com). I will assess the fit and what needs to be clarified.
+---
 
-Independent contractor · Poland / remote collaboration  
-Contracts and payments can be handled through Useme where compatible with the client; Useme is an intermediary, not my company.  
-[work.matiushkin.com](https://work.matiushkin.com)
+## Selected implementations
+
+Choose the task, then inspect one relevant project. **Live example**, **local implementation**, **offline report** and **code change** are different kinds of evidence.
+
+### Connect systems and recover from failures
+
+- **[FastAPI webhook reliability](https://github.com/Hadezu/fastapi-webhook-reliability)** · Local implementation. PostgreSQL inbox/outbox, duplicate handling and recovery after lost responses or process crashes; an attributed extension to the Full Stack FastAPI Template.
+- **[OAuth Connection Recovery](https://github.com/Hadezu/oauth-connection-recovery)** · Local implementation. PKCE, encrypted token storage and explicit reconnection after ambiguous renewal, against a local OAuthLib provider.
+
+[Relevant service: API integration](https://work.matiushkin.com/en/services/api-integration) · [Related interactive example: Data Bridge](https://work.matiushkin.com/en/data-bridge)
+
+### Move data and explain differences
+
+- **[PostgreSQL Import Rehearsal](https://github.com/Hadezu/postgres-import-rehearsal)** · Local implementation + downloadable review. Inspect an import plan, apply it to a real database and try guarded undo after later changes.
+- **[Reconciliation Evidence Workbench](https://github.com/Hadezu/reconciliation-evidence-workbench)** · Offline reports. Compare CSV/XLSX files and inspect exact amounts, ambiguous records and portable HTML/Excel evidence.
+
+[Relevant service: migration and reconciliation](https://work.matiushkin.com/en/services/data-migration) · [Related interactive example: Revenue BI](https://work.matiushkin.com/en/proof/revenue-bi)
+
+### Improve existing code and evaluate changes
+
+- **[Resilience4j retry review](https://github.com/Hadezu/resilience4j-retry-review)** · Scoped code change. A reproduced scheduled-retry failure, a bounded Java fix and regression tests against the unchanged upstream baseline.
+- **[LLM Extraction Release Gate](https://github.com/Hadezu/llm-extraction-release-gate)** · Offline evaluation evidence. Compare extraction versions and block critical regressions. Recorded real-model failures remain visible; this proves the evaluation tool, not a production-ready extractor.
+
+[Relevant service: improve existing software](https://work.matiushkin.com/en/services/software-improvements) · [Related interactive example: AI workflow lab](https://work.matiushkin.com/en/proof/ai-automation)
+
+### Inspect the interface itself
+
+**[Portfolio source](https://github.com/Hadezu/work-portfolio)** · Reproducible source distribution. React/TypeScript, bilingual interfaces, Three.js and interactive business demonstrations. Read its local/production boundaries; the live website may include later changes than the published source snapshot.
+
+---
+
+## What the evidence means
+
+Independent work with synthetic/test data, **not client deployments**. Upstream authors retain credit and my contributions are explicitly identified. No client ROI, vendor certification, production-scale reliability or real-employee adoption is implied. OAuth uses a local provider; approvals do not execute external operations; the AI gate does not establish model quality.
+
+## How we start
+
+Describe the process or existing software problem. I review fit and unknowns, then propose a practical next step. Scope, access, acceptance criteria, price and timing are agreed before paid work. A first stage is a way to start, not a limit on project size; detailed design and prototyping are separately scoped.
+
+I use Codex to assist development and verify the results through code review, builds, tests and browser checks. AI-tool and data-access constraints are agreed before working with client code.
+
+[Describe your problem](https://work.matiushkin.com/en/contact) · [ivan@matiushkin.com](mailto:ivan@matiushkin.com)
+
+Independent contractor · Poland / remote collaboration. Contracts and payments can be handled through Useme where compatible with the client; Useme is an intermediary, not my company.
