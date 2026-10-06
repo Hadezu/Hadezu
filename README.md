@@ -6,17 +6,6 @@ Independent developer in Poland, working remotely. Bring a manual process, a mis
 
 [Portfolio](https://work.matiushkin.com/en) · [Portfolio po polsku](https://work.matiushkin.com/) · [Describe your task](mailto:ivan@matiushkin.com)
 
-## Watch a working example
-
-Choose the task closest to yours. These links open a recorded demonstration inside the repository README; no installation is needed to watch.
-
-| What you need | Start here |
-| --- | --- |
-| An internal application | [Approval workflow](https://github.com/Hadezu/operations-approval-desk#watch-the-demonstration) |
-| A dependable API integration | [Webhook recovery](https://github.com/Hadezu/fastapi-webhook-reliability#watch-the-demonstration) |
-| A controlled database import | [PostgreSQL import rehearsal](https://github.com/Hadezu/postgres-import-rehearsal#watch-the-demonstration) |
-| An explanation of reporting differences | [CSV/XLSX reconciliation](https://github.com/Hadezu/reconciliation-evidence-workbench#watch-the-demonstration) |
-
 ## Find evidence for your task
 
 | Your task | Working evidence | What to inspect |
