@@ -4,7 +4,7 @@
 
 I build internal applications, connect systems, work with business data and improve existing software. Independent contractor in Poland, working directly with clients remotely.
 
-[Explore the portfolio](https://work.matiushkin.com/en) · [Po polsku](https://work.matiushkin.com/) · [Describe your problem](https://work.matiushkin.com/en/contact)
+[LinkedIn](https://www.linkedin.com/in/ivan-matiushkin-809694442/) · [Explore the portfolio](https://work.matiushkin.com/en) · [Po polsku](https://work.matiushkin.com/) · [Describe your problem](https://work.matiushkin.com/en/contact)
 
 **You do not need a technical specification or an introductory call.** Describe what happens today and what needs to change. If I sent you an example by email, replying there is enough.
 
