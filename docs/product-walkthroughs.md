@@ -7,13 +7,13 @@
 **For a company that needs requests, accountable decisions and a searchable record.** The running demonstration follows the same request from employee to manager. All shown data is synthetic.
 
 ### Create the request
-![Employee enters a synthetic equipment request with an amount and business reason](../assets/operations-create.png)
+![Employee enters a synthetic equipment request with an amount and business reason](../assets/operations-create.jpg)
 
 ### Review with a reason
-![Manager reviews the submitted request and enters a decision comment](../assets/operations-review.png)
+![Manager reviews the submitted request and enters a decision comment](../assets/operations-review.jpg)
 
 ### Keep the decision and its history together
-![Approved request with the manager comment and created, submitted and approved activity entries](../assets/operations-decision.png)
+![Approved request with the manager comment and created, submitted and approved activity entries](../assets/operations-decision.jpg)
 
 [Try the workflow](https://operations-desk-reliability.vanya-matyushkin.workers.dev/) · [Release verification](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/RELEASE.md)
 
@@ -23,7 +23,7 @@
 
 CSV → preview → duplicate review → selected records → per-record result.
 
-![Actual Atomic CRM extension: six reviewed records, duplicate and invalid classifications, two rows selected before creation](../assets/crm-import-review.png)
+![Actual Atomic CRM extension: six reviewed records, duplicate and invalid classifications, two rows selected before creation](../assets/crm-import-review.jpg)
 
 The image shows the preview stage. The complete creation and repeat-import journey is documented in the [browser verification](https://github.com/Hadezu/atomic-crm-import-review/blob/main/docs/import-review-verification.md). This is the extension's recorded FakeRest demonstration.
 

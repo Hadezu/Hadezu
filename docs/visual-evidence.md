@@ -1,14 +1,14 @@
 # Visual evidence and provenance
 
-Reviewed 23 October 2026. Screenshots are unretouched application captures; diagrams summarize inspected implementation and records.
+Reviewed 23 October 2026. Screenshots are unretouched application captures; diagrams summarize inspected implementation and records. JPEG captures use the .jpg extension; the original image bytes are preserved.
 
 | Asset | Source and method | Evidence scope |
 |---|---|---|
-| operations-register.png | Live Operations Desk, captured through browser screenshot API on 23 October 2026 | Synthetic isolated demo register |
-| operations-create.png | Same session; equipment request titled Customer support workstation | Filled creation form before saving |
-| operations-review.png | Same request, submitted as employee and reviewed as manager | Decision comment before approval |
-| operations-decision.png | Same request after approval | Approved state and three activity entries |
-| crm-import-review.png | Unchanged copy of Atomic CRM extension docs/images/contact-review.png; recorded October 2026 FakeRest demonstration | Real extension preview with synthetic contacts; not an upstream-only screenshot |
+| operations-register.jpg | Live Operations Desk, captured through browser screenshot API on 23 October 2026 | Synthetic isolated demo register |
+| operations-create.jpg | Same session; equipment request titled Customer support workstation | Filled creation form before saving |
+| operations-review.jpg | Same request, submitted as employee and reviewed as manager | Decision comment before approval |
+| operations-decision.jpg | Same request after approval | Approved state and three activity entries |
+| crm-import-review.jpg | Byte-identical copy of Atomic CRM extension docs/images/contact-review.png; recorded October 2026 FakeRest demonstration | Real extension preview with synthetic contacts; not an upstream-only screenshot |
 | tradebot-scale.svg | Identical copy of TradeBot showcase assets/engineering-scale.svg | Documented protocol and saved 20 October 2026 private acceptance |
 | fastapi-delivery.svg | FastAPI extension README and docs/VERIFICATION.md | Inbox/outbox, leases and synthetic partner receipt contract |
 | delivery-process.svg | Proposed collaboration in delivery-method.md | Proposed process, rather than a claim of completed client engagements |
