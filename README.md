@@ -6,7 +6,7 @@ I build software that organizes operations, connects services and turns complex 
 
 **Independent contractor · Poland · Remote**
 
-**[Try the products](https://work.matiushkin.com/en) · [Discuss your project](mailto:ivan@matiushkin.com)**
+**[Try the products](https://work.matiushkin.com/en) · [Discuss your project](mailto:ivan@matiushkin.com) · [Po polsku](https://work.matiushkin.com/)**
 
 ## Selected implementations
 
@@ -59,6 +59,8 @@ An extension to the **Full Stack FastAPI Template** connects signed catalog even
 **Connected workflows:** API integrations, process automation, document processing and data exchange.
 
 **Product development:** CRM extensions, new modules, migration tools, reliability improvements and ongoing development.
+
+**Small tasks are welcome:** a focused bug fix, an API connection, a report or an improvement to an existing workflow can be a standalone engagement.
 
 From a new application to an existing system that needs to evolve, we agree the requirements, delivery stages and acceptance criteria around your business goal.
 
