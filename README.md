@@ -1,74 +1,81 @@
 # Ivan Matiushkin
 
-### Software for business processes that need a better tool.
+### Business applications, integrations and data systems
 
-I build internal applications, connect systems, work with business data and improve existing software. Independent contractor in Poland, working directly with clients remotely.
+I build software that organizes operations, connects services and turns complex data into usable results.
 
-[LinkedIn](https://www.linkedin.com/in/ivan-matiushkin-809694442/) · [Explore the portfolio](https://work.matiushkin.com/en) · [Po polsku](https://work.matiushkin.com/) · [Describe your problem](https://work.matiushkin.com/en/contact)
+**Independent contractor · Poland · Remote**
 
-**You do not need a technical specification or an introductory call.** Describe what happens today and what needs to change. If I sent you an example by email, replying there is enough.
-
----
-
-## Start with a working example
-
-### 01 / A request needs a clear owner and a recorded decision
-
-**Operations Approval Desk** — submit a request, switch to its reviewer and inspect the decision history. Try an outdated decision: it cannot overwrite the approved version. Real Django/PostgreSQL, with an isolated synthetic workspace.
-
-[Try live — EN](https://operations-approval-desk.onrender.com/demo/en/) · [Wypróbuj — PL](https://operations-approval-desk.onrender.com/demo/pl/) · [Code and verification](https://github.com/Hadezu/operations-approval-desk) · [Internal application development](https://work.matiushkin.com/en/services/internal-applications)
-
-No account needed. The guided demo switches synthetic roles; it does not demonstrate customer identity onboarding. Free hosting may take about a minute to wake up. The repository also includes local authenticated workflows.
-
-### 02 / An existing application needs a safer import
-
-**Atomic CRM import review** — my extension to Marmelab's CRM adds a read-only CSV preview, duplicate/conflict review, explicit row selection and per-record outcomes. Inspect the walkthrough or run the extension locally; Marmelab's hosted demo is the upstream CRM, not my extension.
-
-[Project walkthrough](https://github.com/Hadezu/atomic-crm-import-review/blob/main/CASE-STUDY.md) · [Code and tests](https://github.com/Hadezu/atomic-crm-import-review) · [Improve existing software](https://work.matiushkin.com/en/services/software-improvements)
-
----
+**[Try the products](https://work.matiushkin.com/en) · [Discuss your project](mailto:ivan@matiushkin.com)**
 
 ## Selected implementations
 
-Choose the task, then inspect one relevant project. **Live example**, **local implementation**, **offline report** and **code change** are different kinds of evidence.
+### Operations Desk — from a request to an accountable decision
 
-### Connect systems and recover from failures
+![Operations Desk: request register in the running demonstration application](assets/operations-register.png)
 
-- **[FastAPI webhook reliability](https://github.com/Hadezu/fastapi-webhook-reliability)** · Local implementation. PostgreSQL inbox/outbox, duplicate handling and recovery after lost responses or process crashes; an attributed extension to the Full Stack FastAPI Template.
-- **[OAuth Connection Recovery](https://github.com/Hadezu/oauth-connection-recovery)** · Local implementation. PKCE, encrypted token storage and explicit reconnection after ambiguous renewal, against a local OAuthLib provider.
+A complete request-to-decision workflow: employees submit, managers review, and observers inspect the audit history. Organization boundaries keep records separate. Transactional commands handle repeated requests and competing decisions; the background processing environment recovers interrupted report jobs.
 
-[Relevant service: API integration](https://work.matiushkin.com/en/services/api-integration) · [Related interactive example: Data Bridge](https://work.matiushkin.com/en/data-bridge)
+**Recorded verification:** 40 API/database assertions and five worker-recovery scenarios, plus desktop/mobile journeys. Try approvals online; inspect background recovery in Docker/CI.
 
-### Move data and explain differences
+[See the create → review → decision journey](docs/product-walkthroughs.md#operations-desk) · [Discuss an internal application](mailto:ivan@matiushkin.com?subject=Internal%20application)
 
-- **[PostgreSQL Import Rehearsal](https://github.com/Hadezu/postgres-import-rehearsal)** · Local implementation + downloadable review. Inspect an import plan, apply it to a real database and try guarded undo after later changes.
-- **[Reconciliation Evidence Workbench](https://github.com/Hadezu/reconciliation-evidence-workbench)** · Offline reports. Compare CSV/XLSX files and inspect exact amounts, ambiguous records and portable HTML/Excel evidence.
+[Try the application](https://operations-desk-reliability.vanya-matyushkin.workers.dev/) · [Inspect the evidence](https://operations-desk-reliability.vanya-matyushkin.workers.dev/proof/) · [Architecture and code](https://github.com/Hadezu/operations-desk-reliability)
 
-[Relevant service: migration and reconciliation](https://work.matiushkin.com/en/services/data-migration) · [Related interactive example: Revenue BI](https://work.matiushkin.com/en/proof/revenue-bi)
+### TradeBot — a connected research and simulation platform
 
-### Improve existing code and evaluate changes
+Market data, strategy evaluation, experimental models, portfolio accounting and controlled research workflows form one interconnected platform.
 
-- **[Resilience4j retry review](https://github.com/Hadezu/resilience4j-retry-review)** · Scoped code change. A reproduced scheduled-retry failure, a bounded Java fix and regression tests against the unchanged upstream baseline.
-- **[LLM Extraction Release Gate](https://github.com/Hadezu/llm-extraction-release-gate)** · Offline evaluation evidence. Compare extraction versions and block critical regressions. Recorded real-model failures remain visible; this proves the evaluation tool, not a production-ready extractor.
+![TradeBot: 9 markets, 21 strategies, 405458 modelled action rows, 126 partitions, 280 historical passed checks and 6 recovery breakpoints](assets/tradebot-scale.svg)
 
-[Relevant service: improve existing software](https://work.matiushkin.com/en/services/software-improvements) · [Related interactive example: AI workflow lab](https://work.matiushkin.com/en/proof/ai-automation)
+Continuous portfolio state, version-bound learning targets and recoverable model completion make the interaction between subsystems visible. [Read the scale and provenance](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/engineering-scale.md).
 
-### Inspect the interface itself
+[Explore the system](https://github.com/Hadezu/tradebot-ai-research-showcase) · [Engineering cases](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/engineering-case-studies.md) · [Verification scope](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/verification.md)
 
-**[Portfolio source](https://github.com/Hadezu/work-portfolio)** · Reproducible source distribution. React/TypeScript, bilingual interfaces, Three.js and interactive business demonstrations. Read its local/production boundaries; the live website may include later changes than the published source snapshot.
+### Atomic CRM — a controlled import workflow inside an existing product
 
----
+An extension to **Marmelab's Atomic CRM** gives operators a review step before contact creation: parsed CSV records, duplicate/conflict classification, explicit row selection and per-record outcomes. The implementation includes repeat-import checks and a browser-tested review journey.
 
-## What the evidence means
+[See the real import-review screen](docs/product-walkthroughs.md#atomic-crm) · [Case study](https://github.com/Hadezu/atomic-crm-import-review/blob/main/CASE-STUDY.md) · [Run the extension and inspect tests](https://github.com/Hadezu/atomic-crm-import-review)
 
-Independent work with synthetic/test data, **not client deployments**. Upstream authors retain credit and my contributions are explicitly identified. No client ROI, vendor certification, production-scale reliability or real-employee adoption is implied. OAuth uses a local provider; approvals do not execute external operations; the AI gate does not establish model quality.
+### FastAPI webhook reliability — delivery that can be investigated and recovered
 
-## How we start
+An extension to the **Full Stack FastAPI Template** connects signed catalog events to application records and an HTTP partner. PostgreSQL inbox/outbox transactions, durable receipts, leased workers and an operator console handle duplicates, lost responses and interrupted deliveries.
 
-Describe the process or existing software problem. I review fit and unknowns, then propose a practical next step. Scope, access, acceptance criteria, price and timing are agreed before paid work. A first stage is a way to start, not a limit on project size; detailed design and prototyping are separately scoped.
+**Engineering evidence:** concurrent-event tests, process-crash scenarios, reasoned replay and a runnable Docker Compose environment.
 
-I use Codex to assist development and verify the results through code review, builds, tests and browser checks. AI-tool and data-access constraints are agreed before working with client code.
+[See the delivery and recovery flow](docs/product-walkthroughs.md#fastapi-delivery) · [Explore the implementation](https://github.com/Hadezu/fastapi-webhook-reliability) · [Recorded verification](https://github.com/Hadezu/fastapi-webhook-reliability/blob/main/docs/VERIFICATION.md)
 
-[Describe your problem](https://work.matiushkin.com/en/contact) · [ivan@matiushkin.com](mailto:ivan@matiushkin.com)
+### More systems and focused engineering work
 
-Independent contractor · Poland / remote collaboration. Contracts and payments can be handled through Useme where compatible with the client; Useme is an intermediary, not my company.
+[Data reconciliation](https://github.com/Hadezu/reconciliation-evidence-workbench) · [PostgreSQL import and guarded undo](https://github.com/Hadezu/postgres-import-rehearsal) · [Django approval workflows](https://github.com/Hadezu/operations-approval-desk) · [OAuth connection recovery](https://github.com/Hadezu/oauth-connection-recovery) · [AI extraction evaluation](https://github.com/Hadezu/llm-extraction-release-gate) · [Java retry repair](https://github.com/Hadezu/resilience4j-retry-review) · [Interactive portfolio source](https://github.com/Hadezu/work-portfolio)
+
+**For technical evaluation and RFP/RFQ discussions:** the [capability and evidence index](docs/evidence-index.md) maps business requirements to implementations, test records and verification scope. Projects are independent implementations and attributed open-source extensions; their evidence is documented individually.
+
+## Software I can build for your organization
+
+**Complete products:** web applications, internal systems, operational dashboards and interactive interfaces.
+
+**Connected workflows:** API integrations, process automation, document processing and data exchange.
+
+**Product development:** CRM extensions, new modules, migration tools, reliability improvements and ongoing development.
+
+From a new application to an existing system that needs to evolve, we agree the requirements, delivery stages and acceptance criteria around your business goal.
+
+[Applications](https://work.matiushkin.com/en/services/internal-applications) · [Integrations](https://work.matiushkin.com/en/services/api-integration) · [Data workflows](https://work.matiushkin.com/en/services/data-migration) · [Software improvements](https://work.matiushkin.com/en/services/software-improvements)
+
+## From requirements to a reviewable delivery
+
+I define the intended result with you, organize implementation, review progress and make delivery decisions against agreed acceptance criteria. The project work above includes preserving account state across restarts, reproducing failures before changing code and testing complete user journeys.
+
+**Requirements → delivery plan → implementation → acceptance checks → handover and evolution.**
+
+The proposed delivery package includes agreed source code, setup documentation, verification results and operational notes. Changes to scope, hosting, ownership and ongoing support are agreed as part of the engagement. [Development process and concrete examples](docs/delivery-method.md).
+
+## Discuss your project
+
+I work with companies commissioning software and IT teams seeking an independent delivery partner — for complete applications, integrations, individual modules and long-term development.
+
+Describe your workflow and the result you want. A short email is enough to begin; a finished technical specification or introductory call is optional. For initial examples, use synthetic or properly anonymized data.
+
+[Send a project description](https://work.matiushkin.com/en/contact) · **[ivan@matiushkin.com](mailto:ivan@matiushkin.com)** · [Polish portfolio](https://work.matiushkin.com/) · [LinkedIn](https://www.linkedin.com/in/ivan-matiushkin-809694442/)
