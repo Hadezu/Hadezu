@@ -2,7 +2,7 @@
 
 ### Business applications, integrations and data systems
 
-I build software that organizes operations, connects services and turns complex data into usable results.
+I build software that organizes operations, connects services and turns complex data into usable results. **From small fixes and focused automations to complete business applications.**
 
 **Independent contractor · Poland · Remote**
 
@@ -28,9 +28,15 @@ Market data, strategy evaluation, experimental models, portfolio accounting and 
 
 ![TradeBot: 9 markets, 21 strategies, 405458 modelled action rows, 126 partitions, 280 historical passed checks and 6 recovery breakpoints](assets/tradebot-scale.svg)
 
-Continuous portfolio state, version-bound learning targets and recoverable model completion make the interaction between subsystems visible. [Read the scale and provenance](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/engineering-scale.md).
+**Implemented achievements:** continuous portfolio state, receipt-based reconciliation, version-bound learning targets, recovery at six model-completion interruption points, evidence-dependent admission and baseline-equivalence checks. [Explore the capability register](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/implemented-capabilities.md) · [Scale and provenance](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/engineering-scale.md).
 
 [Explore the system](https://github.com/Hadezu/tradebot-ai-research-showcase) · [Engineering cases](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/engineering-case-studies.md) · [Verification scope](https://github.com/Hadezu/tradebot-ai-research-showcase/blob/main/docs/verification.md)
+
+### Reconciliation Workbench — explain why two reports disagree
+
+Compare CSV and Excel exports, isolate ambiguous matches and trace differences back to their source rows. The result is an HTML report and an Excel review workbook with inspectable evidence — a concrete starting point for a reporting or data-quality task.
+
+[Explore the implementation](https://github.com/Hadezu/reconciliation-evidence-workbench) · [Download the example reports](https://github.com/Hadezu/reconciliation-evidence-workbench/releases/tag/v0.1.0) · [Discuss a reconciliation task](mailto:ivan@matiushkin.com?subject=Data%20reconciliation)
 
 ### Atomic CRM — a controlled import workflow inside an existing product
 
@@ -48,9 +54,9 @@ An extension to the **Full Stack FastAPI Template** connects signed catalog even
 
 ### More systems and focused engineering work
 
-[Data reconciliation](https://github.com/Hadezu/reconciliation-evidence-workbench) · [PostgreSQL import and guarded undo](https://github.com/Hadezu/postgres-import-rehearsal) · [Django approval workflows](https://github.com/Hadezu/operations-approval-desk) · [OAuth connection recovery](https://github.com/Hadezu/oauth-connection-recovery) · [AI extraction evaluation](https://github.com/Hadezu/llm-extraction-release-gate) · [Java retry repair](https://github.com/Hadezu/resilience4j-retry-review) · [Interactive portfolio source](https://github.com/Hadezu/work-portfolio)
+[PostgreSQL import and guarded undo](https://github.com/Hadezu/postgres-import-rehearsal) · [Django approval workflows](https://github.com/Hadezu/operations-approval-desk) · [OAuth connection recovery](https://github.com/Hadezu/oauth-connection-recovery) · [AI extraction evaluation](https://github.com/Hadezu/llm-extraction-release-gate) · [Java retry repair](https://github.com/Hadezu/resilience4j-retry-review) · [Interactive portfolio source](https://github.com/Hadezu/work-portfolio)
 
-**For technical evaluation and RFP/RFQ discussions:** the [capability and evidence index](docs/evidence-index.md) maps business requirements to implementations, test records and verification scope. Projects are independent implementations and attributed open-source extensions; their evidence is documented individually.
+**For technical evaluation and RFP/RFQ discussions:** the [capability and evidence index](docs/evidence-index.md) maps business requirements to implementations, test records and verification scope. Use it to assess the relevant architecture, implemented mechanisms and recorded checks for your project.
 
 ## Software I can build for your organization
 
