@@ -12,7 +12,7 @@ I build software that organizes operations, connects services and turns complex 
 
 ### Operations Desk — from a request to an accountable decision
 
-![Operations Desk: request register in the running demonstration application](assets/operations-register.png)
+<a href="assets/operations-register.jpg"><img src="assets/operations-register.jpg" width="600" alt="Operations Desk: request register in the running demonstration application"></a>
 
 A complete request-to-decision workflow: employees submit, managers review, and observers inspect the audit history. Organization boundaries keep records separate. Transactional commands handle repeated requests and competing decisions; the background processing environment recovers interrupted report jobs.
 
