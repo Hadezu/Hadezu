@@ -36,7 +36,7 @@ Market data, strategy evaluation, experimental models, portfolio accounting and 
 
 Compare CSV and Excel exports, isolate ambiguous matches and trace differences back to their source rows. The result is an HTML report and an Excel review workbook with inspectable evidence — a concrete starting point for a reporting or data-quality task.
 
-[Explore the implementation](https://github.com/Hadezu/reconciliation-evidence-workbench) · [Download the example reports](https://github.com/Hadezu/reconciliation-evidence-workbench/releases/tag/v0.1.0) · [Discuss a reconciliation task](mailto:ivan@matiushkin.com?subject=Data%20reconciliation)
+[Explore the implementation](https://github.com/Hadezu/reconciliation-evidence-workbench) · [Open the example report](https://hadezu.github.io/reconciliation-evidence-workbench/) · [Discuss a reconciliation task](mailto:ivan@matiushkin.com?subject=Data%20reconciliation)
 
 ### Atomic CRM — a controlled import workflow inside an existing product
 
