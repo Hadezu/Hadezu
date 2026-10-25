@@ -68,7 +68,7 @@ An extension to the **Full Stack FastAPI Template** connects signed catalog even
 
 **Association Operations** connects member import review, dues, payment reconciliation and document previews in German and Polish. **Booking & Payment Reliability** demonstrates resource holds, competing reservations, payment-event simulation, cancellation and refund. Both extend Operations Desk in one repository.
 
-[Association walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/ASSOCIATION.md) · [Booking walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/BOOKING.md) · [Delivery & Recovery Evidence](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/DELIVERY-RECOVERY.md)
+[Association walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/ASSOCIATION.md) · [Booking walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/BOOKING.md) · [Delivery & Recovery Evidence](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/DELIVERY-RECOVERY.md)
 
 These modules are proposed in a feature branch and runnable locally; the existing public approvals demo does not yet host them. Synthetic data and a payment simulator only. The owner directs AI-assisted development and accepts results against recorded tests.
 
