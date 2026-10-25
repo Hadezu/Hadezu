@@ -8,6 +8,18 @@ I build software that organizes operations, connects services and turns complex 
 
 **[Try the products](https://work.matiushkin.com/en) · [Discuss your project](mailto:ivan@matiushkin.com) · [Po polsku](https://work.matiushkin.com/)**
 
+## Start with one paid task
+
+A focused paid improvement can be a useful first step. We agree scope, price, acceptance checks and handover before development:
+
+- **CSV/Excel reconciliation and import validation** — [working example](https://hadezu.github.io/reconciliation-evidence-workbench/)
+- **API/webhook fixes and resilient processing** — [code and repeatable tests](https://github.com/Hadezu/fastapi-webhook-reliability)
+- **A small internal workflow or approvals screen** — [working application](https://operations-desk-reliability.vanya-matyushkin.workers.dev/)
+
+The examples are independent demonstrations with synthetic data, not client deployments. Larger applications and long-term improvements are welcome as well.
+
+**[Describe a paid task](https://work.matiushkin.com/en/contact)** · [Email a brief](mailto:ivan@matiushkin.com?subject=Paid%20software%20task)
+
 ## Selected implementations
 
 ### Operations Desk — from a request to an accountable decision
