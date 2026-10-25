@@ -64,6 +64,16 @@ An extension to the **Full Stack FastAPI Template** connects signed catalog even
 
 [See the delivery and recovery flow](docs/product-walkthroughs.md#fastapi-delivery) · [Explore the implementation](https://github.com/Hadezu/fastapi-webhook-reliability) · [Recorded verification](https://github.com/Hadezu/fastapi-webhook-reliability/blob/main/docs/VERIFICATION.md)
 
+### Association and booking — live test demonstrations
+
+**Association Operations** connects member import review, dues, payment reconciliation and document previews in German and Polish. **Booking & Payment Reliability** demonstrates resource holds, competing reservations, payment-event simulation, cancellation and refund. Both extend Operations Desk in one repository.
+
+[Association walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/ASSOCIATION.md) · [Booking walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/BOOKING.md) · [Delivery & Recovery Evidence](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/DELIVERY-RECOVERY.md)
+
+[Try Association Operations](https://operations-workflows-staging.vanya-matyushkin.workers.dev/association/) · [Try Booking](https://operations-workflows-staging.vanya-matyushkin.workers.dev/booking/)
+
+These modules run in a separate public test environment with its own database; the original approvals demo is unchanged. Synthetic data and a payment simulator only. Free hosting limits apply. The owner directs AI-assisted development and accepts results against recorded tests.
+
 ### More systems and focused engineering work
 
 [PostgreSQL import and guarded undo](https://github.com/Hadezu/postgres-import-rehearsal) · [Django approval workflows](https://github.com/Hadezu/operations-approval-desk) · [OAuth connection recovery](https://github.com/Hadezu/oauth-connection-recovery) · [AI extraction evaluation](https://github.com/Hadezu/llm-extraction-release-gate) · [Java retry repair](https://github.com/Hadezu/resilience4j-retry-review) · [Interactive portfolio source](https://github.com/Hadezu/work-portfolio)
