@@ -64,13 +64,15 @@ An extension to the **Full Stack FastAPI Template** connects signed catalog even
 
 [See the delivery and recovery flow](docs/product-walkthroughs.md#fastapi-delivery) · [Explore the implementation](https://github.com/Hadezu/fastapi-webhook-reliability) · [Recorded verification](https://github.com/Hadezu/fastapi-webhook-reliability/blob/main/docs/VERIFICATION.md)
 
-### New workflow modules — source and local demonstrations
+### Association and booking — live test demonstrations
 
 **Association Operations** connects member import review, dues, payment reconciliation and document previews in German and Polish. **Booking & Payment Reliability** demonstrates resource holds, competing reservations, payment-event simulation, cancellation and refund. Both extend Operations Desk in one repository.
 
 [Association walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/ASSOCIATION.md) · [Booking walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/BOOKING.md) · [Delivery & Recovery Evidence](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/DELIVERY-RECOVERY.md)
 
-These modules are proposed in a feature branch and runnable locally; the existing public approvals demo does not yet host them. Synthetic data and a payment simulator only. The owner directs AI-assisted development and accepts results against recorded tests.
+[Try Association Operations](https://operations-workflows-staging.vanya-matyushkin.workers.dev/association/) · [Try Booking](https://operations-workflows-staging.vanya-matyushkin.workers.dev/booking/)
+
+These modules run in a separate public test environment with its own database; the original approvals demo is unchanged. Synthetic data and a payment simulator only. Free hosting limits apply. The owner directs AI-assisted development and accepts results against recorded tests.
 
 ### More systems and focused engineering work
 

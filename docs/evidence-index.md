@@ -25,7 +25,7 @@ Reviewed on **23 October 2026**. Links connect capabilities to source, execution
 
 TradeBot's documented research protocol covers 9 markets and 21 native strategies. These describe research scope, not successful markets, validated strategies or customer deployments. Its source and private acceptance were inspected during the 20 October showcase review; they were not rerun or newly certified for this index.
 
-## Proposed workflow expansion (25 October 2026)
+## Workflow expansion and public test environment (25 October 2026)
 
 | Customer task | Demonstration | What to inspect | What remains project-specific | First paid stage |
 |---|---|---|---|---|
@@ -33,7 +33,7 @@ TradeBot's documented research protocol covers 9 markets and 21 native strategie
 | Limited-resource bookings | [Booking & Payment Reliability](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/BOOKING.md) | Concurrent holds, duplicate/out-of-order simulator events, cancel/refund and API restart | Real provider, taxes/pricing, shared inventory scale | One resource type and provider sandbox contract |
 | Application handover and restore | [Delivery & Recovery Evidence](https://github.com/Hadezu/operations-desk-reliability/blob/main/docs/DELIVERY-RECOVERY.md) | Reproducible setup, actual logical restore and failed-migration rollback | Off-host backups, production recovery targets and support agreement | Test environment and restore rehearsal |
 
-These are feature-branch additions pending owner review, with local runnable demonstrations. No production or commercial client deployment is claimed. Existing profile PR #11 remains independent; this section does not change its proposed introduction.
+These additions are available in a separate [public test environment](https://operations-workflows-staging.vanya-matyushkin.workers.dev/association/) with its own synthetic database. Source PRs remain pending owner review; no production or client deployment is claimed. PRs #11 and #12 share the same complete-project / paid-first-stage introduction. Free hosting limits apply; see the hosted verification record before making availability claims.
 
 ## Build a requirement-to-acceptance plan
 
