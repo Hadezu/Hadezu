@@ -8,6 +8,18 @@ I build software that organizes operations, connects services and turns complex 
 
 **[Try the products](https://work.matiushkin.com/en) · [Discuss your project](mailto:ivan@matiushkin.com) · [Po polsku](https://work.matiushkin.com/)**
 
+## A complete project or a focused paid stage
+
+**Complete business applications.** I can organize delivery of an internal system, customer portal or connected operational workflow: requirements, architecture, implementation, acceptance checks and handover. We agree milestones and responsibilities around the whole business result.
+
+**A focused paid stage.** If you want to start with a bounded scope, we can deliver one integration, import, reconciliation process or application module with its own acceptance criteria. It can stand alone or become the first milestone of a larger project.
+
+Both routes include an agreed scope, price, verification and handover. I direct AI-assisted development, make product and architecture decisions, and accept the work against recorded checks.
+
+Explore [working applications and workflows](https://work.matiushkin.com/en) and the [capability and evidence index](docs/evidence-index.md). The examples are independent demonstrations with synthetic data, not client deployments.
+
+**[Discuss a complete project](https://work.matiushkin.com/en/contact)** · **[Define a paid first stage](mailto:ivan@matiushkin.com?subject=Paid%20first%20stage)**
+
 ## Selected implementations
 
 ### Operations Desk — from a request to an accountable decision
