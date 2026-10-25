@@ -25,6 +25,16 @@ Reviewed on **23 October 2026**. Links connect capabilities to source, execution
 
 TradeBot's documented research protocol covers 9 markets and 21 native strategies. These describe research scope, not successful markets, validated strategies or customer deployments. Its source and private acceptance were inspected during the 20 October showcase review; they were not rerun or newly certified for this index.
 
+## Proposed workflow expansion (25 October 2026)
+
+| Customer task | Demonstration | What to inspect | What remains project-specific | First paid stage |
+|---|---|---|---|---|
+| Association membership and dues | [Association Operations](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/ASSOCIATION.md) | DE/PL import review, preserved revisions, payment allocation and automated checks | Identity onboarding, accounting rules, live bank/DATEV integration | One member export and billing period |
+| Limited-resource bookings | [Booking & Payment Reliability](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/BOOKING.md) | Concurrent holds, duplicate/out-of-order simulator events, cancel/refund and API restart | Real provider, taxes/pricing, shared inventory scale | One resource type and provider sandbox contract |
+| Application handover and restore | [Delivery & Recovery Evidence](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/DELIVERY-RECOVERY.md) | Reproducible setup, actual logical restore and failed-migration rollback | Off-host backups, production recovery targets and support agreement | Test environment and restore rehearsal |
+
+These are feature-branch additions pending owner review, with local runnable demonstrations. No production or commercial client deployment is claimed. Existing profile PR #11 remains independent; this section does not change its proposed introduction.
+
 ## Build a requirement-to-acceptance plan
 
 For each actual requirement, identify the relevant example, the tested revision/date and what still needs project-specific implementation or validation. Avoid converting a similar demo into a claim that the customer's requirement is already met.

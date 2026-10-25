@@ -52,6 +52,14 @@ An extension to the **Full Stack FastAPI Template** connects signed catalog even
 
 [See the delivery and recovery flow](docs/product-walkthroughs.md#fastapi-delivery) · [Explore the implementation](https://github.com/Hadezu/fastapi-webhook-reliability) · [Recorded verification](https://github.com/Hadezu/fastapi-webhook-reliability/blob/main/docs/VERIFICATION.md)
 
+### New workflow modules — source and local demonstrations
+
+**Association Operations** connects member import review, dues, payment reconciliation and document previews in German and Polish. **Booking & Payment Reliability** demonstrates resource holds, competing reservations, payment-event simulation, cancellation and refund. Both extend Operations Desk in one repository.
+
+[Association walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/ASSOCIATION.md) · [Booking walkthrough](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/BOOKING.md) · [Delivery & Recovery Evidence](https://github.com/Hadezu/operations-desk-reliability/blob/codex/commercial-operations-expansion/docs/DELIVERY-RECOVERY.md)
+
+These modules are proposed in a feature branch and runnable locally; the existing public approvals demo does not yet host them. Synthetic data and a payment simulator only. The owner directs AI-assisted development and accepts results against recorded tests.
+
 ### More systems and focused engineering work
 
 [PostgreSQL import and guarded undo](https://github.com/Hadezu/postgres-import-rehearsal) · [Django approval workflows](https://github.com/Hadezu/operations-approval-desk) · [OAuth connection recovery](https://github.com/Hadezu/oauth-connection-recovery) · [AI extraction evaluation](https://github.com/Hadezu/llm-extraction-release-gate) · [Java retry repair](https://github.com/Hadezu/resilience4j-retry-review) · [Interactive portfolio source](https://github.com/Hadezu/work-portfolio)
